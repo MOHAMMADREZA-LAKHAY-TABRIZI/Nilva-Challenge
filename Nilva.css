@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+    font-size: normal;
+    height:100%;   
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+    font-size: inherit;
+}
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 0%;
+    padding: 0%;
+}
+.container-fluid ,main{
+    height: 100vh;
+}
+.country-box{
+    width: 300px;
+    height: 130px;
+    margin: 15px;
+    padding: 10px;
+    float: left;
+    border: 4px dashed slateblue;
+}
+.clear ::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
